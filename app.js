@@ -12,7 +12,15 @@
 // Input: 7
 // Output: alert("Boshqa son kiritdingiz!")
 
-// Qani bir kod yozingchi рџ‘Ђ
+// // Qani bir kod yozingchi рџ‘Ђ
+
+// let son = prompt("Son kiriting: ");
+// if(son == 10){
+//     alert("To'g'ri son!")
+// } else {
+//     alert("Boshqa son kiritdingiz!");
+// }
+
 
 // ====================================
 // ============ 5-masala ==============
@@ -28,9 +36,15 @@
 // Input: "yo'q"
 // Output: alert("Ruxsat yo'q!")
 
-// Qani bir kod yozingchi рџ‘Ђ
+// // Qani bir kod yozingchi рџ‘Ђ
 
-// ====================================
+// let permission = prompt("Parkka ruxsat so'rash: ")
+// if (permission == "ha"){
+//     console.log("Ruhsat bor!")
+// } else {
+//     console.log("Ruhsat yo'q!")
+// }
+
 // ============ 6-masala ==============
 // ====================================
 // ----Masala sharti-----
@@ -44,7 +58,14 @@
 // Input: 150
 // Output: alert("Diapazon tashqarisida!")
 
-// Qani bir kod yozingchi рџ‘Ђ
+// // Qani bir kod yozingchi рџ‘Ђ
+
+// let number = prompt("Termometr ko'rsatkichi:")
+// if (number > 0 && number < 100){
+//     alert("Yaxshi diapazon!")
+// } else {
+//     alert("Diapazon tashqarisida!")
+// }
 
 // ====================================
 // ============ 7-masala ==============
@@ -60,7 +81,14 @@
 // Input: "javascript"
 // Output: alert("Uzoq so'z!")
 
-// Qani bir kod yozingchi рџ‘Ђ
+// // Qani bir kod yozingchi рџ‘Ђ
+
+// let word = prompt("So'z uzunligi: ")
+// if (word.length >= 0 && word.length <= 5){
+//  alert("Qisqa so'z!")
+// } else {
+//     alert("Uzoq so'z!")  
+// }
 
 // ====================================
 // ============ 8-masala ==============
@@ -76,7 +104,14 @@
 // Input: 7
 // Output: alert("Toq son!")
 
-// Qani bir kod yozingchi рџ‘Ђ
+// // Qani bir kod yozingchi рџ‘Ђ
+
+// let son = prompt("Juft yoki toq son: ")
+// if (son % 2 === 0){
+//     alert("Juft son!")
+// } else {
+//     alert("Toq son!")
+// }
 
 // ====================================
 // ============ 9-masala ==============
@@ -92,7 +127,14 @@
 // Input: 5
 // Output: alert("Nol emas!")
 
-// Qani bir kod yozingchi рџ‘Ђ
+// // Qani bir kod yozingchi рџ‘Ђ
+
+// let noll = prompt("Nol kiriting: ")
+// if(noll === "0"){
+//     alert("Nol kiritdingiz!") 
+// } else {
+//     alert("Nol emas!")
+// }
 
 // ====================================
 // ============ 10-masala =============
@@ -109,7 +151,12 @@
 // Output: alert("Boshqa so'z kiritdingiz!")
 
 // Qani bir kod yozingchi рџ‘Ђ
-
+// let world = prompt("Salom, dunyo!") 
+// if(world == "salom"){
+//     alert("Salom, dunyo!")
+// }else{
+//     alert("Boshqa so'z kiritdingiz!") 
+// }
 // ====================================
 // ============ 11-masala =============
 // ====================================
@@ -124,7 +171,13 @@
 // Input: 3, 7
 // Output: alert("Ikkichi son katta yoki teng!")
 
-// Qani bir kod yozingchi рџ‘Ђ
+// // Qani bir kod yozingchi рџ‘Ђ
+//  let number = prompt("Son kiriting: ")
+//  if(number == 10 || number > 5){
+//     alert("Birinchi son katta!")
+//  }else{
+//     alert("Ikkichi son katta yoki teng!")
+//  }
 
 // ====================================
 // ============ 12-masala =============
@@ -142,6 +195,12 @@
 
 // Qani bir kod yozingchi рџ‘Ђ
 
+// let year = prompt("VIP klubga kirish:")
+// let name = prompt("Ali")
+// if(year > 18){
+
+// }
+
 // ====================================
 // ============ 13-masala =============
 // ====================================
@@ -156,8 +215,13 @@
 // Input: 50
 // Output: alert("Chegara ichida!")
 
-// Qani bir kod yozingchi рџ‘Ђ
-
+// // Qani bir kod yozingchi рџ‘Ђ
+// let border = prompt("Chegaradagi raqam: ")
+// if(border < 10 || border > 100){
+//     alert("Chegaradan tashqarida!")
+// }else{
+//     alert("Chegara ichida!") 
+// }
 // ====================================
 // ============ 14-masala =============
 // ====================================
@@ -173,7 +237,12 @@
 // Output: alert("Hech narsa kiritmadingiz!")
 
 // Qani bir kod yozingchi рџ‘Ђ
-
+// let empty = prompt("Ma'lumot kiriting: ")
+// if(empty != ""){
+//     alert("So'z kiritdingiz!") 
+// }else{
+//     alert("Hech narsa kiritmadingiz!")
+// }
 // ====================================
 // ============ 15-masala =============
 // ====================================
@@ -188,7 +257,15 @@
 // Input: 5, 6
 // Output: alert("Sonlar teng emas!")
 
-// Qani bir kod yozingchi рџ‘Ђ
+// Qani bir kod yozingchi рџ
+
+// let number = prompt("Birinchi sonni kiriting: ")
+// let number2 = prompt("Ikkinchi sonni kiriting: ")
+// if(number === number2){
+//     alert("Sonlar teng!") 
+// }else{
+//     alert("Sonlar teng emas!")  
+// }
 
 // ====================================
 // ============ 16-masala =============
@@ -205,6 +282,12 @@
 // Output: alert("Boshqa son!")
 
 // Qani bir kod yozingchi рџ‘Ђ
+// let number = prompt("Son kiriting: ")
+// if(number >= 50 && number % 2 === 0){
+//     alert("Katta juft son!")
+// }else{
+//     alert("Boshqa son!")  
+// }
 
 // ====================================
 // ============ 17-masala =============
@@ -221,6 +304,12 @@
 // Output: alert("Boshqa so'z!")
 
 // Qani bir kod yozingchi рџ‘Ђ
+// let word = prompt("Dasturchilar! ")
+// if(word == "javascript" || word == "coding"){
+//     alert("Siz dasturchisiz!") 
+// } else {
+//     alert("Boshqa so'z!")
+// }
 
 // ====================================
 // ============ 18-masala =============
@@ -237,6 +326,12 @@
 // Output: alert("Son nol!")
 
 // Qani bir kod yozingchi рџ‘Ђ
+// let noll = prompt("Nolni tekshirish: ")
+// if(noll != 0){
+//     alert("Son nol emas!")
+// }else{
+//     alert("Son nol!")   
+// }
 
 // ====================================
 // ============ 19-masala =============
@@ -252,7 +347,13 @@
 // Input: 20
 // Output: alert("O'smir emassiz!")
 
-// Qani bir kod yozingchi рџ‘Ђ
+// // Qani bir kod yozingchi рџ‘Ђ
+// let year = prompt("O'smirlikni aniqlash: ")
+// if(year > 13 && year < 19){
+//     alert("Siz o'smirsiz!") 
+// }else{
+//     alert("O'smir emassiz!")
+// }
 
 // ====================================
 // ============ 20-masala =============
@@ -269,6 +370,12 @@
 // Output: alert("Yaxshi so'z!")
 
 // Qani bir kod yozingchi рџ‘Ђ
+// let word = prompt("So'z uzunligi: ")
+// if(word.length < 3 || word == " "){
+//     alert("So'z juda qisqa!")
+// }else{
+//     alert("Yaxshi so'z!") 
+// }
 
 // ====================================
 // ============ 21-masala =============
@@ -285,6 +392,13 @@
 // Output: alert("Shart bajarilmadi!")
 
 // Qani bir kod yozingchi рџ‘Ђ
+// let son = prompt("Birinchi son")
+// let son2 = prompt("Ikkinchi son")
+// if(son > son2 && son % 2 === 0){
+//     alert("Birinchi son katta va juft!")
+// }else{
+//     alert("Shart bajarilmadi!")
+// }
 
 // ====================================
 // ============ 22-masala =============
@@ -300,7 +414,15 @@
 // Input: 16, "ayol"
 // Output: alert("Armiyaga bormaysiz!")
 
-// Qani bir kod yozingchi рџ‘Ђ
+// // Qani bir kod yozingchi рџ‘Ђ
+
+// let yosh = prompt("Yoshingizni kiriting: ")
+// let jins = prompt("Jinsingizni kiriting: ")
+// if(yosh > 18 && jins === "erkak"){
+//     alert("Siz armiyaga borasiz!") 
+// }else{
+//     alert("Armiyaga bormaysiz!")
+// }
 
 // ====================================
 // ============ 23-masala =============
@@ -318,6 +440,13 @@
 
 // Qani bir kod yozingchi рџ‘Ђ
 
+// let son = prompt("Son kiriting: ")
+// if(son < 10 || son > 100 && son % 2 === 0){
+//     alert("Chegaradagi toq son!")
+// }else{
+//     alert("Boshqa son!")
+// }
+
 // ====================================
 // ============ 24-masala =============
 // ====================================
@@ -332,9 +461,15 @@
 // Input: "user"
 // Output: alert("Siz admin emassiz!")
 
-// Qani bir kod yozingchi рџ‘Ђ
+// // Qani bir kod yozingchi рџ‘Ђ
+// let soz = prompt("Tizimga kirish: ")
+// if(soz === "admin"){
+//     alert("Xush kelibsiz, admin!") 
+// }else{
+//     alert("Siz admin emassiz!")  
+// }
 
-// ====================================
+
 // ============ 25-masala =============
 // ====================================
 // ----Masala sharti-----
@@ -348,7 +483,15 @@
 // Input: -3, 5
 // Output: alert("Shart bajarilmadi!")
 
-// Qani bir kod yozingchi рџ‘Ђ
+// // Qani bir kod yozingchi рџ‘Ђ
+// let son = prompt("Birinchi sonni kiriting:");
+// let son2 = prompt("Ikkinchi sonni kiriting:");
+
+// if (son >= son2 || son > 0) {
+//   alert("Birinchi son mos keladi!");
+// } else {
+//   alert("Shart bajarilmadi!");
+// }
 
 // ====================================
 // ============ 26-masala =============
@@ -365,6 +508,12 @@
 // Output: alert("Oddiy son!")
 
 // Qani bir kod yozingchi рџ‘Ђ
+// let son = prompt("Maxsus diapazon! ")
+// if((son > 0 && son < 10) || (son > 100 && son < 200)){
+//     alert("Maxsus diapazon!")
+// }else{
+//     alert("Oddiy son!")
+// }
 
 // ====================================
 // ============ 27-masala =============
@@ -381,6 +530,14 @@
 // Output: alert("Boshqa holat!")
 
 // Qani bir kod yozingchi рџ‘Ђ
+// let ism = prompt("Ismingizni kiriting:");
+// let yosh = parseInt(prompt("Yoshingizni kiriting:"));
+
+// if (ism.trim() !== "" && yosh < 18) {
+//   alert("Yoshsin, " + ism + "!");
+// } else {
+//   alert("Boshqa holat!");
+// }
 
 // ====================================
 // ============ 28-masala =============
@@ -396,7 +553,14 @@
 // Input: 7
 // Output: alert("Oddiy son!")
 
-// Qani bir kod yozingchi рџ‘Ђ
+// // Qani bir kod yozingchi рџ‘Ђ
+
+// let son = prompt("Son kiriting: ")
+// if(son != 0 && son % 2 === 0 || son > 100){
+//     alert("Maxsus son!")
+// }else{
+//     alert("Oddiy son!")
+// }
 
 // ====================================
 // ============ 29-masala =============
@@ -412,7 +576,15 @@
 // Input: "test", "hello"
 // Output: alert("Ikkichi so'z g'olib!")
 
-// Qani bir kod yozingchi рџ‘Ђ
+// // Qani bir kod yozingchi рџ‘Ђ
+// let soz = prompt("Birinchi so'zni kiriting:");
+// let soz2 = prompt("Ikkinchi so'zni kiriting:");
+
+// if ((soz.length > soz2.length) || (soz === "salom")) {
+//   alert("Birinchi so'z g'olib!");
+// } else {
+//   alert("Ikkinchi so'z g'olib!");
+// }
 
 // ====================================
 // ============ 30-masala =============
@@ -428,4 +600,14 @@
 // Input: 15, "Vali", "yo'q"
 // Output: alert("Superstar emassiz!")
 
-// Qani bir kod yozingchi рџ‘Ђ
+// // Qani bir kod yozingchi рџ‘Ђ
+
+// let yosh = prompt("Yoshingizni kiriting:");
+// let ism = prompt("Ismingizni kiriting:");
+// let javob = prompt("Ha yoki yo'q deb javob bering:");
+
+// if (yosh > 18 && ism.trim() !== "" && javob === "ha") {
+//   alert("Siz superstarsiz, " + ism + "!");
+// } else {
+//   alert("Superstar emassiz!");
+// }
